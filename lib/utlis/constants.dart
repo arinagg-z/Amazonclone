@@ -1,6 +1,7 @@
 import 'package:amazonclone/Screens/accountscreen.dart';
 import 'package:amazonclone/Screens/cartscreen.dart';
 import 'package:amazonclone/Screens/home_screen.dart';
+import 'package:amazonclone/Screens/moremenu.dart';
 import 'package:flutter/material.dart';
 
 const double kAppBarHeight = 80;
@@ -20,11 +21,11 @@ const List<String> categoriesList = [
   "Essential"
 ];
 
-const List<Widget> screens = [
+List<Widget> screens = [
   home_screen(),
   accountscreen(),
   cartscreen(),
-  Text(" Menu Screen"),
+  moremenu(),
 ];
 
 const List<String> categoryLogos = [
